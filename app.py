@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Seitenkonfiguration festlegen und Light Mode erzwingen
 st.set_page_config(
-    page_title="📝 OLAT Fragen Generator",
+    page_title="📝 OLAT Fragen Generator BMS",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -47,7 +47,7 @@ st.markdown(
 )
 
 # Titel der App
-st.title("📝 Fragen Generator")
+st.title("📝 OLAT Fragen Generator BMS")
 
 # Seitenleiste für Anweisungen und Zusatzinformationen
 with st.sidebar:
